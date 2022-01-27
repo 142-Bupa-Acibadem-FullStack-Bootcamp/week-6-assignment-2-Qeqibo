@@ -1,0 +1,49 @@
+
+	/* CSS */
+	/* Başlık */
+	h1 {
+		color: rgba(0, 255, 128, 0.5);
+		font-size: 45px;
+	}
+
+	
+
+	/* Reset Button */
+	#Reset {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid rgb(90, 30, 255);
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(90, 30, 255);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Sıradaki Oyuncu Alanı */
+	#Print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(30, 255, 49);
+		font-size: 20px;
+	}
+
+	/* Main  */
+	#Main {
+		text-align: center;
+	}
+
+	/* Oyun Talimatları Alanı */
+	#Ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: rgb(79, 30, 255);
+		font-size: 17px;
+	}

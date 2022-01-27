@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet"
+		type="text/css" href="TTTGame.css">
+
+	<!-- JavaScript-->
+	<script src="TTTGame.js"></script>
+</head>
+
+<body>
+	<div id="Main">
+		<h1>TIC TAC TOE</h1>
+
+		<!-- Oyun Talimatları -->
+		<p id="Ins">Oyun 3*3 kutudaki herhangi bir hücreye basıldığında başlayacaktır.
+			<br><br>İlk başlayan oyuncu X olarak adlandırılır.
+			<br><br>İkinci oyuncu ise 0 olarak adlandırılır.
+		</p>
+
+
+
+		<br><br>
+		<!-- 3*3 kutu -->
+		<input type="text" id="00" onclick=
+			"myfunc_3(this.id); " readonly>
+
+		<input type="text" id="01" onclick=
+			"myfunc_3(this.id);" readonly>
+
+		<input type="text" id="02" onclick=
+			"myfunc_3(this.id);" readonly>
+		<br><br>
+
+		<input type="text" id="10" onclick=
+			"myfunc_3(this.id);" readonly>
+			
+		<input type="text" id="11" onclick=
+			"myfunc_3(this.id);" readonly>
+
+		<input type="text" id="12" onclick=
+			"myfunc_3(this.id);" readonly>
+		<br><br>
+
+		<input type="text" id="20" onclick=
+			"myfunc_3(this.id);" readonly>
+
+		<input type="text" id="21" onclick=
+			"myfunc_3(this.id);" readonly>
+
+		<input type="text" id="22" onclick=
+			"myfunc_3(this.id);" readonly>
+
+		<!-- kutu sonu-->
+		<br><br><br>
+		<!-- Button oyunu resetlemek için kullanılır -->
+		<button id="Reset" onclick="Reset()">
+			RESET
+		</button>
+
+		<br><br>
+		<!-- Bu alan hangi oyuncunun sırası olduğunu gösterir -->
+		<p id="Print"></p>
+
+
+
+	</div>
+</body>
+
+</html>
