@@ -10,3 +10,8 @@
 
 
 ![tttgame2](https://user-images.githubusercontent.com/86763468/151505750-b6ca6a62-585d-424e-a310-89232db55aca.PNG)
+
+
+
+
+![tttgame3](https://user-images.githubusercontent.com/86763468/151506270-82e703b2-7e69-4de6-acb9-9999b5219869.PNG)
